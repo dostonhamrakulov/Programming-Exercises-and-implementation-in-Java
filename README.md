@@ -26,6 +26,8 @@ You can find answer in the package name of "First_exercise"
 
 
 ## Exercise 2:
+There is a String "Hello Doston Hamrakulov" and you need to reverse it. You have to show two ways of how to reverse the String by using build-in functions and doing manually.
+
 
 
 ### Enjoy :)
