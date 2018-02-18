@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdc2747a-cc1a-453d-aece-41f31524a622" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/second_exercise/Second_exercise.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_master/First_section/First_section.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="First_exercise.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="First_exercise.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/First_exercise/First_exercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Second_exercise.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/second_exercise/Second_exercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -46,6 +58,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/First_section/First_section.java" />
         <option value="$PROJECT_DIR$/src/First_exercise/First_exercise.java" />
+        <option value="$PROJECT_DIR$/src/second_exercise/Second_exercise.java" />
       </list>
     </option>
   </component>
@@ -88,7 +101,7 @@
               <item name="Java_exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="First_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="second_exercise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -115,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.First_exercise">
+  <component name="RunManager" selected="Application.Second_exercise">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -150,6 +163,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="First_section.First_section" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java_master" />
+      <envs />
+    </configuration>
+    <configuration name="Second_exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="second_exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="second_exercise.Second_exercise" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -235,14 +267,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.First_section" />
       <item index="1" class="java.lang.String" itemvalue="Application.First_exercise" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Second_exercise" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.First_exercise" />
-        <item index="1" class="java.lang.String" itemvalue="Application.First_section" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Second_exercise" />
+        <item index="1" class="java.lang.String" itemvalue="Application.First_exercise" />
+        <item index="2" class="java.lang.String" itemvalue="Application.First_section" />
       </list>
     </recent_temporary>
   </component>
@@ -663,8 +697,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/First_exercise/First_exercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second_exercise/Second_exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
