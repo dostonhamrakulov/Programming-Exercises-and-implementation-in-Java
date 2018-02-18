@@ -5,7 +5,9 @@ public class Second_exercise {
 
         String var = "Hello Doston Hamrakulov";
         System.out.println(var);
+        System.out.println("\nUsing library:");
         System.out.println(UsingLibrary(var));
+        System.out.println("\nDoing manually:");
         System.out.println(Manually(var));
     }
     public static String UsingLibrary(String name){
