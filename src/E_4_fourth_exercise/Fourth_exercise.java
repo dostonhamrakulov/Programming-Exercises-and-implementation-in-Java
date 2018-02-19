@@ -1,4 +1,4 @@
-package fourth_exercise;
+package E_4_fourth_exercise;
 
 import java.util.Scanner;
 
