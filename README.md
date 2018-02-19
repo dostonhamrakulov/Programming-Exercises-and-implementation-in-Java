@@ -32,10 +32,13 @@ You can find answer in the package name of "Second_exercise".
 
 
 ## Exercise 3:
-Write a method in Java which takes String parameter and Character, then the method should remove the character from given String:
+Write a method in Java which takes String parameter and Character, then the method should remove the character from given String.
 
 You can find answer in the package name of "Third_exercise".
 
+
+## Exercise 4:
+Write a Java program which takes input of Integer number and outputs the ODD or EVEN of the entered number.
 
 
 
