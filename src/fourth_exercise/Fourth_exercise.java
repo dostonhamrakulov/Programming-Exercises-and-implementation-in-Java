@@ -12,6 +12,11 @@ public class Fourth_exercise {
             System.out.println("Please, enter number");
             input = sc.nextInt();
 
+            String num = "1995";
+            Integer a = Integer.valueOf(num);
+
+            int d = a.intValue();
+
             if ((input % 2) == 0){
                 System.out.println("\nNumber is EVEN");
             } else {

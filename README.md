@@ -42,4 +42,9 @@ Write a Java program which takes input of Integer number and outputs the ODD or 
 
 You can find answer in the package name of "Fourth_exercise".
 
+## Exercise 5:
+Write a Java program that reads an integer between 0 and 1000 and adds all the digits of that integer
+
+
+
 ### Enjoy :)
