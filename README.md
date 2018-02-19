@@ -34,6 +34,9 @@ You can find answer in the package name of "Second_exercise".
 ## Exercise 3:
 Write a method in Java which takes String parameter and Character, then the method should remove the character from given String:
 
+You can find answer in the package name of "Third_exercise".
+
+
 
 
 ### Enjoy :)
