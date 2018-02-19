@@ -47,4 +47,9 @@ Write a Java program that reads an integer between 0 and 1000 and adds all the d
 
 You can find answer in the package name of "E_5_fifth_exercise".
 
+
+## Exercise 6:
+Write program that outputs 10 times without using any loop ('for', 'while', 'do while', ect.)
+
+
 ### Enjoy :)
