@@ -49,6 +49,11 @@ You can find answer in the package name of "E_5_fifth_exercise".
 
 
 ## Exercise 6:
+Write java program which find the lowest common multiple of two Integer number.
+
+You can find answer in the package name of "E_6_exercise".
+
+
 Write program that outputs 10 times without using any loop ('for', 'while', 'do while', ect.)
 
 
