@@ -54,7 +54,13 @@ Write java program which find the lowest common multiple of two Integer number.
 You can find answer in the package name of "E_6_exercise".
 
 
+## Exercise 7:
 Write program that outputs 10 times without using any loop ('for', 'while', 'do while', ect.)
+
+
+## Exercise 8:
+Write a Java method to count all vowels in a string.
+
 
 
 ### Enjoy :)
