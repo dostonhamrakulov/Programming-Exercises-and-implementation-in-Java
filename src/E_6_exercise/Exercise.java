@@ -3,7 +3,7 @@ package E_6_exercise;
 public class Exercise {
     public static void main (String args[]){
 
-        System.out.println(MyMethod(18, 27));
+        System.out.println(MyMethod(8, 12));
     }
 
     public static int MyMethod(int x, int y)

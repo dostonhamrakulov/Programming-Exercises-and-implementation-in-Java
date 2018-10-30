@@ -27,6 +27,3 @@ public class Second_exercise {
         return new String(dos) + "";
     }
 }
-class Doston{
-
-}
