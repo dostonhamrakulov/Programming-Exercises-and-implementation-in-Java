@@ -17,7 +17,7 @@ Here, you can find a lot of programming exercise and implementations in Java.
 
 ## Author
 **Doston Hamrakulov**
->*Software Developer, Samarkand, Uzbekistan*
+>*Software Developer*
 
 
 -[X] **Exercise 1:**
@@ -49,13 +49,13 @@ Write a Java program that reads an integer between 0 and 1000 and adds all the d
 You can find answer in the package name of "E_5_fifth_exercise".
 
 
--[ ] **Exercise 6:**
+-[X] **Exercise 6:**
 Write java program which find the lowest common multiple of two Integer number.
 
 You can find answer in the package name of "E_6_exercise".
 
 
--[ ] **Exercise 7:**
+-[X] **Exercise 7:**
 Write program that outputs 10 times without using any loop ('for', 'while', 'do while', ect.)
 
 
@@ -64,4 +64,4 @@ Write a Java method to count all vowels in a string.
 
 
 
-### Enjoy :)
+### Enjoy in open-source community :)
