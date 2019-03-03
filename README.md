@@ -52,7 +52,7 @@ public class First_exercise {
 There is a String "Hello Doston Hamrakulov" and you need to reverse it. You have to show two ways of how to reverse the String by using build-in functions and doing manually.
 
 ```java
-public static void main(String args[]){
+    public static void main(String args[]){
 
         String var = "Hello Doston";
         System.out.println(var);
@@ -77,7 +77,7 @@ public static void main(String args[]){
         }
         return new String(dos) + "";
     }
-}
+
 ```
 * * *
 
@@ -87,7 +87,7 @@ public static void main(String args[]){
 Write a method in Java which takes String parameter and Character, then the method should remove the character from given String.
 
 ```java
-public static void main(String args[]){
+   public static void main(String args[]){
 
         String str = "Doston HaBBBBBv";
         System.out.println("Third exercise:\n\n" + str);
@@ -99,7 +99,7 @@ public static void main(String args[]){
             return null;
         }
         return str.replaceAll(Character.toString(c), "");
-}
+    }
 ```
 * * *
 
@@ -110,7 +110,7 @@ public static void main(String args[]){
 Write a Java program which takes input of Integer number and outputs the ODD or EVEN of the entered number.
 
 ```java
-public static void main(String args[]){
+   public static void main(String args[]){
 
         int input;
         Scanner sc = new Scanner(System.in);
@@ -131,25 +131,82 @@ public static void main(String args[]){
             }
 
 
-}
+   }
 ```
 * * *
 
--[X] **Exercise 5:**
+### Exercise_5: ###
+**Description:**
+
 Write a Java program that reads an integer between 0 and 1000 and adds all the digits of that integer
 
-You can find answer in the package name of "E_5_fifth_exercise".
+```java
+   public static void main(String args[]){
 
+        System.out.println(getSUM(2222));
+    }
+    static int getSUM(int num){
 
--[X] **Exercise 6:**
+        String a = String.valueOf(num);
+        int sum = 0;
+        for (int i = 0; i < a.length(); i++){
+            sum += Integer.parseInt(a.charAt(i) + "");
+        }
+        return sum;
+    }
+```
+* * *
+
+### Exercise_6: ###
+**Description:**
+
 Write java program which find the lowest common multiple of two Integer number.
 
-You can find answer in the package name of "E_6_exercise".
+```java
+    public static void main (String args[]){
+
+        System.out.println(MyMethod(8, 12));
+    }
+
+    public static int MyMethod(int x, int y)
+    {
+        int a;
+        a = (x > y) ? x : y; // a is greater number
+        while(true)
+        {
+            if(a % x == 0 && a % y == 0)
+                return a;
+            ++a;
+        }
+    }
+```
+* * *
 
 
--[X] **Exercise 7:**
+### Exercise_7: ###
+**Description:**
+
 Write program that outputs 10 times without using any loop ('for', 'while', 'do while', ect.)
 
+```java
+    static int index = 0;
+    static String temp = "";
+    public static void main(String[] args) {
+        System.out.println(printMore("1_", 10));
+    }
+
+    private static String printMore(String myStr, int i) {
+
+        temp += myStr;
+        index++;
+        if (index < i){
+
+            printMore(myStr, i);
+        }
+        return temp;
+    }
+```
+* * *
 
 -[ ] **Exercise 8:**
 Write a Java method to count all vowels in a string.
