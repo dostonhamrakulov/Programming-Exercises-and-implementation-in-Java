@@ -46,7 +46,7 @@ public class First_exercise {
 
 -[X] **Exercise 2:**
 
-### Exercise_1: ###
+### Exercise_2: ###
 **Description:**
 
 There is a String "Hello Doston Hamrakulov" and you need to reverse it. You have to show two ways of how to reverse the String by using build-in functions and doing manually.
@@ -77,20 +77,63 @@ public static void main(String args[]){
         }
         return new String(dos) + "";
     }
+}
+```
+* * *
+
+### Exercise_3: ###
+**Description:**
+
+Write a method in Java which takes String parameter and Character, then the method should remove the character from given String.
+
+```java
+public static void main(String args[]){
+
+        String str = "Doston HaBBBBBv";
+        System.out.println("Third exercise:\n\n" + str);
+        System.out.println("Answer:\n\n" + MyMethod(str, 'B'));
+    }
+    private static String MyMethod(String str, char c){
+
+        if (str == null){
+            return null;
+        }
+        return str.replaceAll(Character.toString(c), "");
+}
 ```
 * * *
 
 
--[X] **Exercise 3:**
-Write a method in Java which takes String parameter and Character, then the method should remove the character from given String.
+### Exercise_4: ###
+**Description:**
 
-You can find answer in the package name of "E_3_third_exercise".
-
-
--[X] **Exercise 4:**
 Write a Java program which takes input of Integer number and outputs the ODD or EVEN of the entered number.
 
-You can find answer in the package name of "E_4_fourth_exercise".
+```java
+public static void main(String args[]){
+
+        int input;
+        Scanner sc = new Scanner(System.in);
+
+
+            System.out.println("Please, enter number");
+            input = sc.nextInt();
+
+            String num = "2019";
+            Integer a = Integer.valueOf(num);
+
+            int d = a.intValue();
+
+            if ((input % 2) == 0){
+                System.out.println("\nNumber is EVEN");
+            } else {
+                System.out.println("\nNumber is ODD");
+            }
+
+
+}
+```
+* * *
 
 -[X] **Exercise 5:**
 Write a Java program that reads an integer between 0 and 1000 and adds all the digits of that integer
