@@ -20,13 +20,10 @@ Here, you can find a lot of programming exercise and implementations in Java.
 >*Software Developer*
 
 
--[X] **Exercise 1:**
-There are two integer variables(or whatever type) and you should swap them in manually with using any build in function and any other variable
-
-## Exercise_1: ##
+### Exercise_1: ###
 **Description:**
 
-There are two integer variables(or whatever type) and you should swap them in manually with using any build in function and any other variable.
+There are two integer variables(or whatever type) and you should swap them in manually without using any build in function and any other variable.
 
 ```java
 public class First_exercise {
@@ -48,9 +45,40 @@ public class First_exercise {
 
 
 -[X] **Exercise 2:**
+
+### Exercise_1: ###
+**Description:**
+
 There is a String "Hello Doston Hamrakulov" and you need to reverse it. You have to show two ways of how to reverse the String by using build-in functions and doing manually.
 
-You can find answer in the package name of "E_2_second_exercise".
+```java
+public static void main(String args[]){
+
+        String var = "Hello Doston";
+        System.out.println(var);
+        System.out.println("\nUsing library:");
+        System.out.println(UsingLibrary(var));
+        System.out.println("\nDoing manually:");
+        System.out.println(Manually(var));
+    }
+    public static String UsingLibrary(String name){
+        String newName = new StringBuilder(name).reverse().toString();
+        return newName;
+    }
+    public static String Manually(String name){
+
+        char dos[] = new char[name.length()];
+        for (int i = 1; i <= name.length(); i++){
+            if (i > name.length()){
+                break;
+            } else {
+                dos[i-1] = name.charAt(name.length()-i);
+            }
+        }
+        return new String(dos) + "";
+    }
+```
+* * *
 
 
 -[X] **Exercise 3:**
