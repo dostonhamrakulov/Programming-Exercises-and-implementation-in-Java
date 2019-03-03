@@ -23,7 +23,28 @@ Here, you can find a lot of programming exercise and implementations in Java.
 -[X] **Exercise 1:**
 There are two integer variables(or whatever type) and you should swap them in manually with using any build in function and any other variable
 
-You can find answer in the package name of "E_1_first_exercise"
+## Exercise_1: ##
+**Description:**
+
+There are two integer variables(or whatever type) and you should swap them in manually with using any build in function and any other variable.
+
+```java
+public class First_exercise {
+    public static void main(String args[]){
+        
+        int number_1 = 8;
+        int number_2 = 15;
+
+        number_1 = number_1 + number_2;
+        number_2 = number_1 - number_2;
+        number_1 = number_1 - number_2;
+
+        System.out.println("First: " + number_1);
+        System.out.println("Second: " + number_2);
+    }
+}
+```
+* * *
 
 
 -[X] **Exercise 2:**
